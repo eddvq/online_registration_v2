@@ -43,7 +43,6 @@ hr {
     border-bottom: none;
     margin-bottom: 16px;
     margin-top: 30px;
-    margin-top: px;
 }
 
 #seperator {
@@ -90,6 +89,8 @@ form {
     width: 100%;
 }
 
+
+
 label[for="address"],
 label[for="name"],
 label[for="email"],
@@ -130,6 +131,10 @@ input[id="zip"]{
 input[placeholder="Required"]{
     text-align: right;
     font-weight: 300;
+}
+
+input:focus {
+    background: lightblue;
 }
 
 select
@@ -199,7 +204,7 @@ How do you use a clearfix in this instance
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
     fieldset{
